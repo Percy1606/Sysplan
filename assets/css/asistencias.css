@@ -1,0 +1,121 @@
+/* Estilos para mejorar la visualización de la tabla */
+.table-responsive {
+    overflow-x: auto; /* Permite el desplazamiento horizontal si la tabla es más ancha que el contenedor */
+}
+
+.table-responsive .table {
+    table-layout: fixed; /* Fuerza a la tabla a respetar el ancho del contenedor */
+    word-wrap: break-word; /* Permite que el texto largo se divida y salte de línea */
+    min-width: 1200px; /* Ancho mínimo para evitar que las columnas se compriman demasiado */
+}
+
+.table-responsive .table th,
+.table-responsive .table td {
+    white-space: normal !important; /* Asegura que el texto pueda envolverse */
+    overflow-wrap: break-word;
+}
+
+/* Estilos personalizados para los botones de la tabla de asistencias */
+
+/* Botón Editar (Azul) */
+#tablaAsistencias .btn-group .btn.edit-btn {
+    background-color: #00c0ef;
+    border-color: #00c0ef;
+    color: #fff;
+}
+
+#tablaAsistencias .btn-group .btn.edit-btn:hover {
+    background-color: #00a3d8;
+    border-color: #00a3d8;
+}
+
+/* Botón Eliminar (Rojo) */
+#tablaAsistencias .btn-group .btn.delete-btn {
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+    color: #fff;
+}
+
+#tablaAsistencias .btn-group .btn.delete-btn:hover {
+    background-color: #d73925;
+    border-color: #d73925;
+}
+
+/* Estilo para el ícono del toggle */
+.toggle-icon {
+    color: #337ab7; /* Un color azul para que sea visible */
+    font-size: 1.2em;
+}
+
+/* Estilos para la tabla de asistencias */
+.table th, .table td {
+    font-size: 12px; /* Tamaño de letra más pequeño */
+    text-align: left; /* Alineación a la izquierda */
+    vertical-align: middle !important;
+    padding: 8px; /* Espaciado interno */
+}
+
+.table thead th {
+    background-color: #f8f9fa; /* Color de fondo para el encabezado */
+    font-weight: 600; /* Texto en negrita para el encabezado */
+    text-align: left;
+}
+
+.details-control {
+    width: 60px; /* Ancho fijo para la columna del toggle */
+    min-width: 60px;
+}
+
+.details-control .toggle-icon {
+    background-color: #28a745; /* Fondo verde */
+    color: white; /* Ícono blanco */
+    border-radius: 50%; /* Círculo perfecto */
+    padding: 3px 5px;
+    font-size: 10px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.details-control .toggle-icon.fa-minus-circle {
+    background-color: #dc3545; /* Fondo rojo para el ícono de cerrar */
+}
+
+.table td {
+    border-top: 0px solid #dee2e6; /* Línea divisoria superior para cada celda */
+    border-bottom: 1px solid #e0e0e0; /* Borde inferior sutil */
+}
+
+/* Estilos para filas alternas */
+#tablaAsistencias tr.odd td,
+#tablaAsistencias tr:nth-child(odd) td {
+    background-color: #f5f5f5 !important; /* Un gris muy claro, aún más sutil */
+}
+
+#tablaAsistencias tr.even td,
+#tablaAsistencias tr:nth-child(even) td {
+    background-color: #ffffff !important; /* Blanco */
+}
+
+/* Estilos para los indicadores de ordenamiento */
+.sortable-header {
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px; /* Espacio para el icono */
+}
+
+.sortable-header .sort-icon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc; /* Color por defecto */
+    font-size: 1em; /* Aumentado ligeramente */
+}
+
+.sortable-header.asc .sort-icon.fa-sort-up {
+    color: #333; /* Color cuando está ordenado ascendente */
+}
+
+.sortable-header.desc .sort-icon.fa-sort-down {
+    color: #333; /* Color cuando está ordenado descendente */
+}

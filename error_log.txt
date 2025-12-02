@@ -1,0 +1,8 @@
+2025-10-21 18:32:21 - Call to undefined method MasterConexion::consulta_array()
+2025-10-21 18:35:58 - Las horas de inicio y fin no coinciden con el turno predefinido para el tipo de turno seleccionado.
+2025-10-21 18:36:21 - Las horas de inicio y fin no coinciden con el turno predefinido para el tipo de turno seleccionado.
+2025-10-21 18:36:50 - Las horas de inicio y fin no coinciden con el turno predefinido para el tipo de turno seleccionado.
+2025-10-21 18:40:24 - Las horas de inicio y fin no coinciden con el turno predefinido para el tipo de turno seleccionado.
+2025-10-21 18:40:35 - Las horas de inicio y fin no coinciden con el turno predefinido para el tipo de turno seleccionado.
+2025-10-21 18:40:49 - Las horas de inicio y fin no coinciden con el turno predefinido para el tipo de turno seleccionado.
+2025-10-21 18:41:09 - Las horas de inicio y fin no coinciden con el turno predefinido para el tipo de turno seleccionado.

@@ -1,0 +1,114 @@
+2025-11-04 03:48:55 - Solicitud para obtener boleta por ID: 33
+2025-11-04 03:48:55 - DEBUG - consulta_registro SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:48:55 - Error en consulta_registro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.id_area' in 'field list' SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:48:55 - Resultado de consulta_registro para ID 33: 
+2025-11-04 03:48:55 - No se encontró la boleta con el ID 33 en la base de datos.
+2025-11-04 03:49:12 - Solicitud para obtener boleta por ID: 33
+2025-11-04 03:49:12 - DEBUG - consulta_registro SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:49:12 - Error en consulta_registro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.id_area' in 'field list' SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:49:12 - Resultado de consulta_registro para ID 33: 
+2025-11-04 03:49:12 - No se encontró la boleta con el ID 33 en la base de datos.
+2025-11-04 03:49:14 - Solicitud para obtener boleta por ID: 33
+2025-11-04 03:49:14 - DEBUG - consulta_registro SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:49:14 - Error en consulta_registro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.id_area' in 'field list' SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:49:14 - Resultado de consulta_registro para ID 33: 
+2025-11-04 03:49:14 - No se encontró la boleta con el ID 33 en la base de datos.
+2025-11-04 03:53:45 - Solicitud para obtener boleta por ID: 33
+2025-11-04 03:53:45 - DEBUG - consulta_registro SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:53:45 - Error en consulta_registro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.id_area' in 'field list' SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:53:45 - Resultado de consulta_registro para ID 33: 
+2025-11-04 03:53:45 - No se encontró la boleta con el ID 33 en la base de datos.
+2025-11-04 03:53:54 - Solicitud para obtener boleta por ID: 33
+2025-11-04 03:53:54 - DEBUG - consulta_registro SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:53:54 - Error en consulta_registro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.id_area' in 'field list' SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:53:54 - Resultado de consulta_registro para ID 33: 
+2025-11-04 03:53:54 - No se encontró la boleta con el ID 33 en la base de datos.
+2025-11-04 03:56:58 - Solicitud para obtener boleta por ID: 33
+2025-11-04 03:56:58 - DEBUG - consulta_registro SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:56:58 - Error en consulta_registro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.id_area' in 'field list' SQL: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+                     FROM boleta_de_pago bp
+                     LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+                     WHERE bp.id = ? LIMIT 1 Params: Array
+(
+    [0] => 33
+)
+
+2025-11-04 03:56:58 - Resultado de consulta_registro para ID 33: 
+2025-11-04 03:56:58 - No se encontró la boleta con el ID 33 en la base de datos.

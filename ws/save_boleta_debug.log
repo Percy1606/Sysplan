@@ -1,0 +1,2796 @@
+2025-11-04 01:06:00 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 4
+                    [descripcion] => Horas Extras
+                    [monto] => 320
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2820
+    [total_descuentos] => 0
+    [total_neto] => 2820
+    [observaciones] => 
+)
+
+2025-11-04 01:06:00 - Validando id_trabajador: 1
+2025-11-04 01:06:00 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:06:00 - Datos para boleta_de_pago: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2820
+    [total_descuentos] => 0
+    [total_neto] => 2820
+    [observaciones] => 
+)
+
+2025-11-04 01:06:00 - Intentando insertar nueva boleta.
+2025-11-04 01:06:00 - Error al crear la boleta principal: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sysplan_db`.`boleta_de_pago`, CONSTRAINT `fk_boleta_trabajador` FOREIGN KEY (`id_trabajador`) REFERENCES `trabajador` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2025-11-04 01:07:45 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 4
+                    [descripcion] => Horas Extras
+                    [monto] => 320
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2820
+    [total_descuentos] => 0
+    [total_neto] => 2820
+    [observaciones] => 
+)
+
+2025-11-04 01:07:45 - Validando id_trabajador: 1
+2025-11-04 01:07:45 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:07:45 - Datos para boleta_de_pago: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2820
+    [total_descuentos] => 0
+    [total_neto] => 2820
+    [observaciones] => 
+)
+
+2025-11-04 01:07:45 - Intentando insertar nueva boleta.
+2025-11-04 01:07:45 - Error al crear la boleta principal: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sysplan_db`.`boleta_de_pago`, CONSTRAINT `fk_boleta_trabajador` FOREIGN KEY (`id_trabajador`) REFERENCES `trabajador` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2025-11-04 01:08:46 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-04 01:08:46 - Validando id_trabajador: 1
+2025-11-04 01:08:46 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:08:46 - Datos para boleta_de_pago: Array
+(
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-04 01:08:46 - Intentando insertar nueva boleta.
+2025-11-04 01:08:46 - Error al crear la boleta principal: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sysplan_db`.`boleta_de_pago`, CONSTRAINT `fk_boleta_trabajador` FOREIGN KEY (`id_trabajador`) REFERENCES `trabajador` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2025-11-04 01:13:30 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-04 01:13:30 - Validando id_trabajador: 1
+2025-11-04 01:13:30 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:13:30 - Datos para boleta_de_pago: Array
+(
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-04 01:13:30 - Intentando insertar nueva boleta.
+2025-11-04 01:13:30 - Error al crear la boleta principal: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sysplan_db`.`boleta_de_pago`, CONSTRAINT `fk_boleta_trabajador` FOREIGN KEY (`id_trabajador`) REFERENCES `trabajador` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2025-11-04 01:14:01 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-04 01:14:01 - Validando id_trabajador: 1
+2025-11-04 01:14:01 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 01:14:01 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:14:01 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-04 01:14:01 - Intentando insertar nueva boleta.
+2025-11-04 01:14:01 - Error al crear la boleta principal: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sysplan_db`.`boleta_de_pago`, CONSTRAINT `fk_boleta_trabajador` FOREIGN KEY (`id_trabajador`) REFERENCES `trabajador` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2025-11-04 01:20:47 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 6
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 11
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 50
+    [total_neto] => 2530
+    [observaciones] => 
+)
+
+2025-11-04 01:20:47 - Validando id_trabajador: 1
+2025-11-04 01:20:47 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 01:20:47 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:20:47 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2580
+    [total_descuentos] => 50
+    [total_neto] => 2530
+    [observaciones] => 
+)
+
+2025-11-04 01:20:47 - Intentando insertar nueva boleta.
+2025-11-04 01:20:47 - Boleta principal creada con ID: 30
+2025-11-04 01:20:47 - Detalles antiguos borrados para boleta ID: 30
+2025-11-04 01:20:47 - Ingresos dinámicos procesados.
+2025-11-04 01:20:47 - Descuentos dinámicos procesados.
+2025-11-04 01:23:20 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 20
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 10
+                    [descripcion] => Vacaciones
+                    [monto] => 800
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 623
+                    [descripcion] => SPP - Aportación Obligatoria AFP
+                    [monto] => 10
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2600
+    [total_descuentos] => 10
+    [total_neto] => 2590
+    [observaciones] => 
+)
+
+2025-11-04 01:23:20 - Validando id_trabajador: 20
+2025-11-04 01:23:20 - Resultado de la validación de trabajador_existe para ID 20: Array
+(
+    [id] => 20
+)
+
+2025-11-04 01:23:20 - id_trabajador (20) existe en la tabla trabajadores.
+2025-11-04 01:23:20 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 20
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2600
+    [total_descuentos] => 10
+    [total_neto] => 2590
+    [observaciones] => 
+)
+
+2025-11-04 01:23:20 - Intentando insertar nueva boleta.
+2025-11-04 01:23:20 - Boleta principal creada con ID: 31
+2025-11-04 01:23:20 - Detalles antiguos borrados para boleta ID: 31
+2025-11-04 01:23:20 - Ingresos dinámicos procesados.
+2025-11-04 01:23:20 - Descuentos dinámicos procesados.
+2025-11-04 01:32:54 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 0
+    [total_neto] => 2580
+    [observaciones] => Holaaaaa
+)
+
+2025-11-04 01:32:54 - Validando id_trabajador: 1
+2025-11-04 01:32:54 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 01:32:54 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:32:54 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [dias_subsidiados] => 0
+    [horas_ordinarias] => 0
+    [minutos_ordinarios] => 0
+    [horas_extra] => 0
+    [minutos_extra] => 0
+    [total_ingresos] => 2580
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2580
+    [observaciones] => Holaaaaa
+)
+
+2025-11-04 01:32:54 - Intentando insertar nueva boleta.
+2025-11-04 01:32:55 - Boleta principal creada con ID: 32
+2025-11-04 01:32:55 - Detalles antiguos borrados para boleta ID: 32
+2025-11-04 01:32:55 - Ingresos dinámicos procesados.
+2025-11-04 01:33:47 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 30
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => ING008
+                    [descripcion] => Gratificación (Julio/Diciembre)
+                    [monto] => 1250
+                    [aplicar] => true
+                )
+
+            [2] => Array
+                (
+                    [codigo_concepto] => 6
+                    [descripcion] => 6
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES002
+                    [descripcion] => Préstamo Personal
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+            [2] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+            [3] => Array
+                (
+                    [codigo_concepto] => 11
+                    [descripcion] => 11
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3910
+    [total_descuentos] => 650
+    [total_neto] => 3260
+    [observaciones] => 
+)
+
+2025-11-04 01:33:47 - Validando id_trabajador: 1
+2025-11-04 01:33:47 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 01:33:47 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:33:47 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [dias_subsidiados] => 0
+    [horas_ordinarias] => 0
+    [minutos_ordinarios] => 0
+    [horas_extra] => 0
+    [minutos_extra] => 0
+    [total_ingresos] => 3910
+    [total_descuentos] => 650
+    [total_aportes] => 0
+    [total_neto] => 3260
+    [observaciones] => 
+)
+
+2025-11-04 01:33:47 - Intentando actualizar boleta con ID: 30
+2025-11-04 01:33:47 - Boleta principal actualizada con ID: 30
+2025-11-04 01:33:47 - Detalles antiguos borrados para boleta ID: 30
+2025-11-04 01:33:47 - Ingresos dinámicos procesados.
+2025-11-04 01:33:47 - Descuentos dinámicos procesados.
+2025-11-04 01:45:37 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 30
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => ING008
+                    [descripcion] => Gratificación (Julio/Diciembre)
+                    [monto] => 1250
+                    [aplicar] => true
+                )
+
+            [2] => Array
+                (
+                    [codigo_concepto] => 6
+                    [descripcion] => 6
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES002
+                    [descripcion] => Préstamo Personal
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+            [2] => Array
+                (
+                    [codigo_concepto] => 11
+                    [descripcion] => 11
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3910
+    [total_descuentos] => 350
+    [total_neto] => 3560
+    [observaciones] => 
+)
+
+2025-11-04 01:45:38 - Validando id_trabajador: 1
+2025-11-04 01:45:38 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 01:45:38 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 01:45:38 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 3910
+    [total_descuentos] => 350
+    [total_aportes] => 0
+    [total_neto] => 3560
+    [observaciones] => 
+)
+
+2025-11-04 01:45:38 - Intentando actualizar boleta con ID: 30
+2025-11-04 01:45:38 - Boleta principal actualizada con ID: 30
+2025-11-04 01:45:38 - Detalles antiguos borrados para boleta ID: 30
+2025-11-04 01:45:38 - Ingresos dinámicos procesados.
+2025-11-04 01:45:38 - Descuentos dinámicos procesados.
+2025-11-04 01:46:15 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 19
+    [mes] => 7
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES003
+                    [descripcion] => Tardanzas (Descuento por minutos)
+                    [monto] => 35.5
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES004
+                    [descripcion] => Faltas Injustificadas
+                    [monto] => 120
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3280
+    [total_descuentos] => 155.5
+    [total_neto] => 3124.5
+    [observaciones] => 
+)
+
+2025-11-04 01:46:15 - Validando id_trabajador: 19
+2025-11-04 01:46:15 - Resultado de la validación de trabajador_existe para ID 19: Array
+(
+    [id] => 19
+)
+
+2025-11-04 01:46:15 - id_trabajador (19) existe en la tabla trabajadores.
+2025-11-04 01:46:15 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 19
+    [mes] => 7
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3280
+    [total_descuentos] => 155.5
+    [total_aportes] => 0
+    [total_neto] => 3124.5
+    [observaciones] => 
+)
+
+2025-11-04 01:46:15 - Intentando insertar nueva boleta.
+2025-11-04 01:46:15 - Boleta principal creada con ID: 33
+2025-11-04 01:46:15 - Detalles antiguos borrados para boleta ID: 33
+2025-11-04 01:46:15 - Ingresos dinámicos procesados.
+2025-11-04 01:46:15 - Descuentos dinámicos procesados.
+2025-11-04 05:59:52 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 19
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES006
+                    [descripcion] => Descuento por Comisión AFP
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES007
+                    [descripcion] => Descuento por Prima de Seguro AFP
+                    [monto] => 120
+                    [aplicar] => true
+                )
+
+            [2] => Array
+                (
+                    [codigo_concepto] => DES010
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3200
+    [total_descuentos] => 250
+    [total_neto] => 2950
+    [observaciones] => 
+)
+
+2025-11-04 05:59:52 - Validando id_trabajador: 19
+2025-11-04 05:59:52 - Resultado de la validación de trabajador_existe para ID 19: Array
+(
+    [id] => 19
+)
+
+2025-11-04 05:59:52 - id_trabajador (19) existe en la tabla trabajadores.
+2025-11-04 05:59:52 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 19
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3200
+    [total_descuentos] => 250
+    [total_aportes] => 0
+    [total_neto] => 2950
+    [observaciones] => 
+)
+
+2025-11-04 05:59:52 - Intentando insertar nueva boleta.
+2025-11-04 05:59:52 - Boleta principal creada con ID: 34
+2025-11-04 05:59:52 - Detalles antiguos borrados para boleta ID: 34
+2025-11-04 05:59:52 - Descuentos dinámicos procesados.
+2025-11-04 17:13:54 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:13:54 - Validando id_trabajador: 1
+2025-11-04 17:13:54 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 17:13:54 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 17:13:54 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_aportes] => 0
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:13:54 - Intentando insertar nueva boleta.
+2025-11-04 17:13:54 - Boleta principal creada con ID: 35
+2025-11-04 17:13:54 - Detalles antiguos borrados para boleta ID: 35
+2025-11-04 17:13:54 - Ingresos dinámicos procesados.
+2025-11-04 17:13:54 - Descuentos dinámicos procesados.
+2025-11-04 17:14:18 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 35
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:14:18 - Validando id_trabajador: 1
+2025-11-04 17:14:18 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 17:14:18 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 17:14:18 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_aportes] => 0
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:14:18 - Intentando actualizar boleta con ID: 35
+2025-11-04 17:14:18 - Boleta principal actualizada con ID: 35
+2025-11-04 17:14:18 - Detalles antiguos borrados para boleta ID: 35
+2025-11-04 17:14:18 - Ingresos dinámicos procesados.
+2025-11-04 17:14:18 - Descuentos dinámicos procesados.
+2025-11-04 17:16:36 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 35
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:16:36 - Validando id_trabajador: 1
+2025-11-04 17:16:36 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 17:16:36 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 17:16:36 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_aportes] => 0
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:16:36 - Intentando actualizar boleta con ID: 35
+2025-11-04 17:16:36 - Boleta principal actualizada con ID: 35
+2025-11-04 17:16:36 - Detalles antiguos borrados para boleta ID: 35
+2025-11-04 17:16:36 - Ingresos dinámicos procesados.
+2025-11-04 17:16:36 - Descuentos dinámicos procesados.
+2025-11-04 17:17:25 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 35
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:17:25 - Validando id_trabajador: 1
+2025-11-04 17:17:25 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 17:17:25 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 17:17:25 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_aportes] => 0
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:17:25 - Intentando actualizar boleta con ID: 35
+2025-11-04 17:17:25 - Boleta principal actualizada con ID: 35
+2025-11-04 17:17:25 - Detalles antiguos borrados para boleta ID: 35
+2025-11-04 17:17:25 - Ingresos dinámicos procesados.
+2025-11-04 17:17:25 - Descuentos dinámicos procesados.
+2025-11-04 17:19:58 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 35
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:19:58 - Validando id_trabajador: 1
+2025-11-04 17:19:58 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 17:19:58 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 17:19:58 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_aportes] => 0
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:19:58 - Intentando actualizar boleta con ID: 35
+2025-11-04 17:19:58 - Boleta principal actualizada con ID: 35
+2025-11-04 17:19:58 - Detalles antiguos borrados para boleta ID: 35
+2025-11-04 17:19:58 - Ingresos dinámicos procesados.
+2025-11-04 17:19:59 - Descuentos dinámicos procesados.
+2025-11-04 17:20:19 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 35
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:20:19 - Validando id_trabajador: 1
+2025-11-04 17:20:19 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 17:20:19 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 17:20:19 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 2580
+    [total_descuentos] => 450
+    [total_aportes] => 0
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-04 17:20:19 - Intentando actualizar boleta con ID: 35
+2025-11-04 17:20:19 - Boleta principal actualizada con ID: 35
+2025-11-04 17:20:20 - Detalles antiguos borrados para boleta ID: 35
+2025-11-04 17:20:20 - Ingresos dinámicos procesados.
+2025-11-04 17:20:20 - Descuentos dinámicos procesados.
+2025-11-04 17:20:38 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 35
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => ING006
+                    [descripcion] => Comisión por Ventas
+                    [monto] => 450
+                    [aplicar] => true
+                )
+
+            [2] => Array
+                (
+                    [codigo_concepto] => ING008
+                    [descripcion] => Gratificación (Julio/Diciembre)
+                    [monto] => 1250
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES001
+                    [descripcion] => Adelanto de Sueldo
+                    [monto] => 300
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES006
+                    [descripcion] => Descuento por Comisión AFP
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [2] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 4280
+    [total_descuentos] => 530
+    [total_neto] => 3750
+    [observaciones] => 
+)
+
+2025-11-04 17:20:38 - Validando id_trabajador: 1
+2025-11-04 17:20:38 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-04 17:20:38 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-04 17:20:38 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 4280
+    [total_descuentos] => 530
+    [total_aportes] => 0
+    [total_neto] => 3750
+    [observaciones] => 
+)
+
+2025-11-04 17:20:38 - Intentando actualizar boleta con ID: 35
+2025-11-04 17:20:39 - Boleta principal actualizada con ID: 35
+2025-11-04 17:20:39 - Detalles antiguos borrados para boleta ID: 35
+2025-11-04 17:20:39 - Ingresos dinámicos procesados.
+2025-11-04 17:20:39 - Descuentos dinámicos procesados.
+2025-11-04 17:37:09 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 19
+    [mes] => 5
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING004
+                    [descripcion] => Bono de Productividad
+                    [monto] => 250
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES004
+                    [descripcion] => Faltas Injustificadas
+                    [monto] => 120
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3450
+    [total_descuentos] => 120
+    [total_neto] => 3330
+    [observaciones] => 
+)
+
+2025-11-04 17:37:09 - Validando id_trabajador: 19
+2025-11-04 17:37:09 - Resultado de la validación de trabajador_existe para ID 19: Array
+(
+    [id] => 19
+)
+
+2025-11-04 17:37:09 - id_trabajador (19) existe en la tabla trabajadores.
+2025-11-04 17:37:09 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 19
+    [mes] => 5
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3450
+    [total_descuentos] => 120
+    [total_aportes] => 0
+    [total_neto] => 3330
+    [observaciones] => 
+)
+
+2025-11-04 17:37:09 - Intentando insertar nueva boleta.
+2025-11-04 17:37:09 - Boleta principal creada con ID: 36
+2025-11-04 17:37:09 - Detalles antiguos borrados para boleta ID: 36
+2025-11-04 17:37:09 - Ingresos dinámicos procesados.
+2025-11-04 17:37:09 - Descuentos dinámicos procesados.
+2025-11-04 17:38:02 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 20
+    [mes] => 4
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING007
+                    [descripcion] => Reintegro Salarial
+                    [monto] => 200
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES010
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2000
+    [total_descuentos] => 50
+    [total_neto] => 1950
+    [observaciones] => 
+)
+
+2025-11-04 17:38:02 - Validando id_trabajador: 20
+2025-11-04 17:38:02 - Resultado de la validación de trabajador_existe para ID 20: Array
+(
+    [id] => 20
+)
+
+2025-11-04 17:38:02 - id_trabajador (20) existe en la tabla trabajadores.
+2025-11-04 17:38:02 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 20
+    [mes] => 4
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2000
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 1950
+    [observaciones] => 
+)
+
+2025-11-04 17:38:02 - Intentando insertar nueva boleta.
+2025-11-04 17:38:02 - Boleta principal creada con ID: 37
+2025-11-04 17:38:02 - Detalles antiguos borrados para boleta ID: 37
+2025-11-04 17:38:02 - Ingresos dinámicos procesados.
+2025-11-04 17:38:02 - Descuentos dinámicos procesados.
+2025-11-05 23:22:12 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING007
+                    [descripcion] => Reintegro Salarial
+                    [monto] => 200
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES010
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2700
+    [total_descuentos] => 50
+    [total_neto] => 2650
+    [observaciones] => 
+)
+
+2025-11-05 23:22:12 - Validando id_trabajador: 1
+2025-11-05 23:22:12 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-05 23:22:12 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-05 23:22:12 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2700
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 2650
+    [observaciones] => 
+)
+
+2025-11-05 23:22:12 - Intentando insertar nueva boleta.
+2025-11-05 23:22:12 - Boleta principal creada con ID: 38
+2025-11-05 23:22:12 - Detalles antiguos borrados para boleta ID: 38
+2025-11-05 23:22:12 - Ingresos dinámicos procesados.
+2025-11-05 23:22:12 - Descuentos dinámicos procesados.
+2025-11-07 00:10:20 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 35
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_faltados] => 6
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => ING009
+                    [descripcion] => Vacaciones
+                    [monto] => 800
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES006
+                    [descripcion] => Descuento por Comisión AFP
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3380
+    [total_descuentos] => 230
+    [total_neto] => 3150
+    [observaciones] => 
+)
+
+2025-11-07 00:10:20 - Validando id_trabajador: 1
+2025-11-07 00:10:20 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-07 00:10:20 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-07 00:10:20 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 20
+    [dias_no_laborados] => 6
+    [total_ingresos] => 3380
+    [total_descuentos] => 230
+    [total_aportes] => 0
+    [total_neto] => 3150
+    [observaciones] => 
+)
+
+2025-11-07 00:10:20 - Intentando actualizar boleta con ID: 35
+2025-11-07 00:10:20 - Boleta principal actualizada con ID: 35
+2025-11-07 00:10:20 - Detalles antiguos borrados para boleta ID: 35
+2025-11-07 00:10:20 - Ingresos dinámicos procesados.
+2025-11-07 00:10:20 - Descuentos dinámicos procesados.
+2025-11-07 00:36:53 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 19
+    [mes] => 1
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING004
+                    [descripcion] => Bono de Productividad
+                    [monto] => 250
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES003
+                    [descripcion] => Tardanzas (Descuento por minutos)
+                    [monto] => 35.5
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3450
+    [total_descuentos] => 35.5
+    [total_neto] => 3414.5
+    [observaciones] => 
+)
+
+2025-11-07 00:36:53 - Validando id_trabajador: 19
+2025-11-07 00:36:53 - Resultado de la validación de trabajador_existe para ID 19: Array
+(
+    [id] => 19
+)
+
+2025-11-07 00:36:53 - id_trabajador (19) existe en la tabla trabajadores.
+2025-11-07 00:36:53 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 19
+    [mes] => 1
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3450
+    [total_descuentos] => 35.5
+    [total_aportes] => 0
+    [total_neto] => 3414.5
+    [observaciones] => 
+)
+
+2025-11-07 00:36:53 - Intentando insertar nueva boleta.
+2025-11-07 00:36:53 - Boleta principal creada con ID: 39
+2025-11-07 00:36:53 - Detalles antiguos borrados para boleta ID: 39
+2025-11-07 00:36:53 - Ingresos dinámicos procesados.
+2025-11-07 00:36:53 - Descuentos dinámicos procesados.
+2025-11-07 00:40:02 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 19
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 1
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING006
+                    [descripcion] => Comisión por Ventas
+                    [monto] => 450
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => ING007
+                    [descripcion] => Reintegro Salarial
+                    [monto] => 200
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES008
+                    [descripcion] => Descuento por Aporte Obligatorio AFP
+                    [monto] => 150
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES009
+                    [descripcion] => Descuento ONP 13%
+                    [monto] => 325
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3850
+    [total_descuentos] => 475
+    [total_neto] => 3375
+    [observaciones] => 
+)
+
+2025-11-07 00:40:02 - Validando id_trabajador: 19
+2025-11-07 00:40:02 - Resultado de la validación de trabajador_existe para ID 19: Array
+(
+    [id] => 19
+)
+
+2025-11-07 00:40:02 - id_trabajador (19) existe en la tabla trabajadores.
+2025-11-07 00:40:02 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 19
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 1
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3850
+    [total_descuentos] => 475
+    [total_aportes] => 0
+    [total_neto] => 3375
+    [observaciones] => 
+)
+
+2025-11-07 00:40:02 - Intentando insertar nueva boleta.
+2025-11-07 00:40:02 - Boleta principal creada con ID: 40
+2025-11-07 00:40:02 - Detalles antiguos borrados para boleta ID: 40
+2025-11-07 00:40:02 - Ingresos dinámicos procesados.
+2025-11-07 00:40:02 - Descuentos dinámicos procesados.
+2025-11-07 00:41:02 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 18
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING003
+                    [descripcion] => Horas Extras
+                    [monto] => 320
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES006
+                    [descripcion] => Descuento por Comisión AFP
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES007
+                    [descripcion] => Descuento por Prima de Seguro AFP
+                    [monto] => 120
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 1400
+    [total_descuentos] => 200
+    [total_neto] => 1200
+    [observaciones] => 
+)
+
+2025-11-07 00:41:02 - Validando id_trabajador: 18
+2025-11-07 00:41:02 - Resultado de la validación de trabajador_existe para ID 18: Array
+(
+    [id] => 18
+)
+
+2025-11-07 00:41:02 - id_trabajador (18) existe en la tabla trabajadores.
+2025-11-07 00:41:02 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 18
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 1400
+    [total_descuentos] => 200
+    [total_aportes] => 0
+    [total_neto] => 1200
+    [observaciones] => 
+)
+
+2025-11-07 00:41:02 - Intentando insertar nueva boleta.
+2025-11-07 00:41:02 - Boleta principal creada con ID: 41
+2025-11-07 00:41:02 - Detalles antiguos borrados para boleta ID: 41
+2025-11-07 00:41:02 - Ingresos dinámicos procesados.
+2025-11-07 00:41:02 - Descuentos dinámicos procesados.
+2025-11-09 18:02:45 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 6
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING010
+                    [descripcion] => Bono por Desempeño
+                    [monto] => 500
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES009
+                    [descripcion] => Descuento ONP 13%
+                    [monto] => 325
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => DES010
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 3000
+    [total_descuentos] => 375
+    [total_neto] => 2625
+    [observaciones] => 
+)
+
+2025-11-09 18:02:45 - Validando id_trabajador: 1
+2025-11-09 18:02:45 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-09 18:02:45 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-09 18:02:45 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 6
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3000
+    [total_descuentos] => 375
+    [total_aportes] => 0
+    [total_neto] => 2625
+    [observaciones] => 
+)
+
+2025-11-09 18:02:45 - Intentando insertar nueva boleta.
+2025-11-09 18:02:45 - Boleta principal creada con ID: 42
+2025-11-09 18:02:45 - Detalles antiguos borrados para boleta ID: 42
+2025-11-09 18:02:45 - Ingresos dinámicos procesados.
+2025-11-09 18:02:45 - Descuentos dinámicos procesados.
+2025-11-09 18:03:37 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 1
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 18:03:37 - Validando id_trabajador: 1
+2025-11-09 18:03:37 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-09 18:03:37 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-09 18:03:37 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 1
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 18:03:37 - Intentando insertar nueva boleta.
+2025-11-09 18:03:37 - Boleta principal creada con ID: 43
+2025-11-09 18:03:37 - Detalles antiguos borrados para boleta ID: 43
+2025-11-09 18:05:31 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 19
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 3200
+    [total_descuentos] => 0
+    [total_neto] => 3200
+    [observaciones] => 
+)
+
+2025-11-09 18:05:31 - Validando id_trabajador: 19
+2025-11-09 18:05:31 - Resultado de la validación de trabajador_existe para ID 19: Array
+(
+    [id] => 19
+)
+
+2025-11-09 18:05:31 - id_trabajador (19) existe en la tabla trabajadores.
+2025-11-09 18:05:31 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 19
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3200
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 3200
+    [observaciones] => 
+)
+
+2025-11-09 18:05:31 - Intentando insertar nueva boleta.
+2025-11-09 18:05:31 - Boleta principal creada con ID: 44
+2025-11-09 18:05:31 - Detalles antiguos borrados para boleta ID: 44
+2025-11-09 20:43:00 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 8
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 20:43:00 - Validando id_trabajador: 1
+2025-11-09 20:43:00 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-09 20:43:00 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-09 20:43:00 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 8
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 20:43:00 - Intentando insertar nueva boleta.
+2025-11-09 20:43:00 - Boleta principal creada con ID: 45
+2025-11-09 20:43:00 - Detalles antiguos borrados para boleta ID: 45
+2025-11-09 20:43:00 - Notificación creada para el trabajador ID: 1
+2025-11-09 20:53:58 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 4
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 20:53:58 - Validando id_trabajador: 1
+2025-11-09 20:53:58 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-09 20:53:58 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-09 20:53:58 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 4
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 20:53:58 - Intentando insertar nueva boleta.
+2025-11-09 20:53:58 - Boleta principal creada con ID: 46
+2025-11-09 20:53:58 - Detalles antiguos borrados para boleta ID: 46
+2025-11-09 20:53:58 - No se encontró un user_id para el trabajador ID: 1
+2025-11-09 21:02:00 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 45
+    [id_trabajador] => 1
+    [mes] => 8
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 21:02:00 - Validando id_trabajador: 1
+2025-11-09 21:02:00 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-09 21:02:00 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-09 21:02:00 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 8
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 21:02:00 - Intentando actualizar boleta con ID: 45
+2025-11-09 21:02:00 - Boleta principal actualizada con ID: 45
+2025-11-09 21:02:00 - Detalles antiguos borrados para boleta ID: 45
+2025-11-09 21:02:00 - No se encontró un user_id para el trabajador ID: 1
+2025-11-09 21:07:57 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 19
+    [mes] => 6
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 3200
+    [total_descuentos] => 0
+    [total_neto] => 3200
+    [observaciones] => 
+)
+
+2025-11-09 21:07:57 - Validando id_trabajador: 19
+2025-11-09 21:07:57 - Resultado de la validación de trabajador_existe para ID 19: Array
+(
+    [id] => 19
+)
+
+2025-11-09 21:07:57 - id_trabajador (19) existe en la tabla trabajadores.
+2025-11-09 21:07:57 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 19
+    [mes] => 6
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 3200
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 3200
+    [observaciones] => 
+)
+
+2025-11-09 21:07:57 - Intentando insertar nueva boleta.
+2025-11-09 21:07:57 - Boleta principal creada con ID: 47
+2025-11-09 21:07:57 - Detalles antiguos borrados para boleta ID: 47
+2025-11-09 21:07:57 - No se encontró un user_id para el trabajador ID: 19
+2025-11-09 21:10:34 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 21:10:34 - Validando id_trabajador: 1
+2025-11-09 21:10:34 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-09 21:10:34 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-09 21:10:34 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-09 21:10:34 - Intentando insertar nueva boleta.
+2025-11-09 21:10:34 - Boleta principal creada con ID: 48
+2025-11-09 21:10:34 - Detalles antiguos borrados para boleta ID: 48
+2025-11-09 21:10:34 - No se encontró un user_id para el trabajador ID: 1
+2025-11-15 21:20:50 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING004
+                    [descripcion] => Bono de Productividad
+                    [monto] => 250
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES010
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2750
+    [total_descuentos] => 50
+    [total_neto] => 2700
+    [observaciones] => 
+)
+
+2025-11-15 21:20:50 - Validando id_trabajador: 1
+2025-11-15 21:20:50 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-15 21:20:50 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-15 21:20:50 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2750
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 2700
+    [observaciones] => 
+)
+
+2025-11-15 21:20:50 - Intentando insertar nueva boleta.
+2025-11-15 21:20:50 - Boleta principal creada con ID: 49
+2025-11-15 21:20:50 - Detalles antiguos borrados para boleta ID: 49
+2025-11-15 21:20:50 - Ingresos dinámicos procesados.
+2025-11-15 21:20:50 - Descuentos dinámicos procesados.
+2025-11-15 21:20:50 - No se encontró un user_id para el trabajador ID: 1
+2025-11-15 22:03:01 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 54
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING004
+                    [descripcion] => Bono de Productividad
+                    [monto] => 250
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES010
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 1750
+    [total_descuentos] => 50
+    [total_neto] => 1700
+    [observaciones] => 
+)
+
+2025-11-15 22:03:01 - Validando id_trabajador: 54
+2025-11-15 22:03:01 - Resultado de la validación de trabajador_existe para ID 54: Array
+(
+    [id] => 54
+)
+
+2025-11-15 22:03:01 - id_trabajador (54) existe en la tabla trabajadores.
+2025-11-15 22:03:01 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 54
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 1750
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 1700
+    [observaciones] => 
+)
+
+2025-11-15 22:03:01 - Intentando insertar nueva boleta.
+2025-11-15 22:03:01 - Boleta principal creada con ID: 50
+2025-11-15 22:03:01 - Detalles antiguos borrados para boleta ID: 50
+2025-11-15 22:03:01 - Ingresos dinámicos procesados.
+2025-11-15 22:03:01 - Descuentos dinámicos procesados.
+2025-11-15 22:03:01 - No se encontró un user_id para el trabajador ID: 54
+2025-11-16 13:46:07 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 54
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING009
+                    [descripcion] => Vacaciones
+                    [monto] => 800
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DES010
+                    [descripcion] => Otros Descuentos Administrativos
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2300
+    [total_descuentos] => 50
+    [total_neto] => 2250
+    [observaciones] => 
+)
+
+2025-11-16 13:46:07 - Validando id_trabajador: 54
+2025-11-16 13:46:07 - Resultado de la validación de trabajador_existe para ID 54: Array
+(
+    [id] => 54
+)
+
+2025-11-16 13:46:07 - id_trabajador (54) existe en la tabla trabajadores.
+2025-11-16 13:46:07 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 54
+    [mes] => 12
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2300
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 2250
+    [observaciones] => 
+)
+
+2025-11-16 13:46:07 - Intentando insertar nueva boleta.
+2025-11-16 13:46:07 - Boleta principal creada con ID: 51
+2025-11-16 13:46:07 - Detalles antiguos borrados para boleta ID: 51
+2025-11-16 13:46:07 - Ingresos dinámicos procesados.
+2025-11-16 13:46:07 - Descuentos dinámicos procesados.
+2025-11-16 13:46:07 - No se encontró un user_id para el trabajador ID: 54
+2025-11-16 14:08:09 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 18
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING004
+                    [descripcion] => Bono de Productividad
+                    [monto] => 250
+                    [aplicar] => true
+                )
+
+            [1] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 1330
+    [total_descuentos] => 0
+    [total_neto] => 1330
+    [observaciones] => 
+)
+
+2025-11-16 14:08:09 - Validando id_trabajador: 18
+2025-11-16 14:08:09 - Resultado de la validación de trabajador_existe para ID 18: Array
+(
+    [id] => 18
+)
+
+2025-11-16 14:08:09 - id_trabajador (18) existe en la tabla trabajadores.
+2025-11-16 14:08:09 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 18
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 1330
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 1330
+    [observaciones] => 
+)
+
+2025-11-16 14:08:09 - Intentando insertar nueva boleta.
+2025-11-16 14:08:09 - Boleta principal creada con ID: 52
+2025-11-16 14:08:09 - Detalles antiguos borrados para boleta ID: 52
+2025-11-16 14:08:09 - Ingresos dinámicos procesados.
+2025-11-16 14:08:09 - No se encontró un user_id para el trabajador ID: 18
+2025-11-16 16:06:04 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 1
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-16 16:06:04 - Validando id_trabajador: 1
+2025-11-16 16:06:04 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-16 16:06:04 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-16 16:06:04 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 1
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2500
+    [observaciones] => 
+)
+
+2025-11-16 16:06:04 - Intentando insertar nueva boleta.
+2025-11-16 16:06:04 - Boleta principal creada con ID: 53
+2025-11-16 16:06:04 - Detalles antiguos borrados para boleta ID: 53
+2025-11-16 16:06:04 - No se encontró un user_id para el trabajador ID: 1
+2025-11-16 16:41:39 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2580
+    [total_descuentos] => 0
+    [total_neto] => 2580
+    [observaciones] => 
+)
+
+2025-11-16 16:41:39 - Validando id_trabajador: 1
+2025-11-16 16:41:39 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-16 16:41:39 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-16 16:41:39 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 3
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2580
+    [total_descuentos] => 0
+    [total_aportes] => 0
+    [total_neto] => 2580
+    [observaciones] => 
+)
+
+2025-11-16 16:41:39 - Intentando insertar nueva boleta.
+2025-11-16 16:41:39 - Boleta principal creada con ID: 54
+2025-11-16 16:41:39 - Detalles antiguos borrados para boleta ID: 54
+2025-11-16 16:41:39 - Error al insertar ingreso: Array
+(
+    [codigo_concepto] => ING005
+    [descripcion] => Bonificación por Puntualidad
+    [monto] => 80
+    [aplicar] => true
+)
+
+2025-11-16 16:41:39 - Ingresos dinámicos procesados.
+2025-11-16 16:41:39 - No se encontró un user_id para el trabajador ID: 1
+2025-11-16 16:47:41 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 9
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 000
+                    [descripcion] => Movilidad
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2500
+    [total_descuentos] => 50
+    [total_neto] => 2450
+    [observaciones] => 
+)
+
+2025-11-16 16:47:41 - Validando id_trabajador: 1
+2025-11-16 16:47:41 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-16 16:47:41 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-16 16:47:41 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 9
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2500
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 2450
+    [observaciones] => 
+)
+
+2025-11-16 16:47:41 - Intentando insertar nueva boleta.
+2025-11-16 16:47:41 - Boleta principal creada con ID: 55
+2025-11-16 16:47:41 - Detalles antiguos borrados para boleta ID: 55
+2025-11-16 16:47:41 - Descuentos dinámicos procesados.
+2025-11-16 16:47:41 - No se encontró un user_id para el trabajador ID: 1
+2025-11-16 16:50:47 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING003
+                    [descripcion] => Horas Extras
+                    [monto] => 320
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => 000
+                    [descripcion] => Movilidad
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2820
+    [total_descuentos] => 50
+    [total_neto] => 2770
+    [observaciones] => 
+)
+
+2025-11-16 16:50:47 - Validando id_trabajador: 1
+2025-11-16 16:50:47 - Resultado de la validación de trabajador_existe para ID 1: Array
+(
+    [id] => 1
+)
+
+2025-11-16 16:50:47 - id_trabajador (1) existe en la tabla trabajadores.
+2025-11-16 16:50:47 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 1
+    [mes] => 11
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 2820
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 2770
+    [observaciones] => 
+)
+
+2025-11-16 16:50:47 - Intentando insertar nueva boleta.
+2025-11-16 16:50:47 - Boleta principal creada con ID: 56
+2025-11-16 16:50:47 - Detalles antiguos borrados para boleta ID: 56
+2025-11-16 16:50:47 - Error al insertar ingreso: Array
+(
+    [codigo_concepto] => ING003
+    [descripcion] => Horas Extras
+    [monto] => 320
+    [aplicar] => true
+)
+
+2025-11-16 16:50:47 - Ingresos dinámicos procesados.
+2025-11-16 16:50:47 - Descuentos dinámicos procesados.
+2025-11-16 16:50:47 - No se encontró un user_id para el trabajador ID: 1
+2025-11-19 02:30:37 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 4
+    [mes] => 10
+    [ano] => 2025
+    [dias_laborados] => 29
+    [dias_faltados] => 2
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING006
+                    [descripcion] => Comisión por Ventas
+                    [monto] => 450
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DSC002
+                    [descripcion] => Préstamo personal al trabajador
+                    [monto] => 120
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 2250
+    [total_descuentos] => 120
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-19 02:30:37 - Validando id_trabajador: 4
+2025-11-19 02:30:37 - Resultado de la validación de trabajador_existe para ID 4: Array
+(
+    [id] => 4
+)
+
+2025-11-19 02:30:37 - id_trabajador (4) existe en la tabla trabajadores.
+2025-11-19 02:30:37 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 4
+    [mes] => 10
+    [ano] => 2025
+    [dias_laborados] => 29
+    [dias_no_laborados] => 2
+    [total_ingresos] => 2250
+    [total_descuentos] => 120
+    [total_aportes] => 0
+    [total_neto] => 2130
+    [observaciones] => 
+)
+
+2025-11-19 02:30:37 - Intentando insertar nueva boleta.
+2025-11-19 02:30:37 - Boleta principal creada con ID: 71
+2025-11-19 02:30:37 - Detalles antiguos borrados para boleta ID: 71
+2025-11-19 02:30:37 - Ingresos dinámicos procesados.
+2025-11-19 02:30:37 - Descuentos dinámicos procesados.
+2025-11-19 02:30:37 - No se encontró un user_id para el trabajador ID: 4
+2025-11-19 14:33:05 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 0
+    [id_trabajador] => 69
+    [mes] => 10
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_faltados] => 0
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DESC000
+                    [descripcion] => Movilidad
+                    [monto] => 50
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 1080
+    [total_descuentos] => 50
+    [total_neto] => 1030
+    [observaciones] => 
+)
+
+2025-11-19 14:33:05 - Validando id_trabajador: 69
+2025-11-19 14:33:05 - Resultado de la validación de trabajador_existe para ID 69: Array
+(
+    [id] => 69
+)
+
+2025-11-19 14:33:05 - id_trabajador (69) existe en la tabla trabajadores.
+2025-11-19 14:33:05 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 69
+    [mes] => 10
+    [ano] => 2025
+    [dias_laborados] => 0
+    [dias_no_laborados] => 0
+    [total_ingresos] => 1080
+    [total_descuentos] => 50
+    [total_aportes] => 0
+    [total_neto] => 1030
+    [observaciones] => 
+)
+
+2025-11-19 14:33:05 - Intentando insertar nueva boleta.
+2025-11-19 14:33:05 - Boleta principal creada con ID: 72
+2025-11-19 14:33:05 - Detalles antiguos borrados para boleta ID: 72
+2025-11-19 14:33:05 - Ingresos dinámicos procesados.
+2025-11-19 14:33:05 - Descuentos dinámicos procesados.
+2025-11-19 14:33:05 - No se encontró un user_id para el trabajador ID: 69
+2025-11-19 16:45:41 - Datos recibidos en save_boleta: Array
+(
+    [op] => save_boleta
+    [id_boleta] => 68
+    [id_trabajador] => 4
+    [mes] => 10
+    [ano] => 2025
+    [dias_laborados] => 29
+    [dias_faltados] => 2
+    [ingresos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => ING005
+                    [descripcion] => Bonificación por Puntualidad
+                    [monto] => 80
+                    [aplicar] => true
+                )
+
+        )
+
+    [descuentos_dinamicos] => Array
+        (
+            [0] => Array
+                (
+                    [codigo_concepto] => DSC001
+                    [descripcion] => Adelanto de sueldo (quincena)
+                    [monto] => 140
+                    [aplicar] => true
+                )
+
+        )
+
+    [total_ingresos] => 1880
+    [total_descuentos] => 140
+    [total_neto] => 1740
+    [observaciones] => Boleta generada automáticamente para ARNOLD MORANTE - 10/2025
+)
+
+2025-11-19 16:45:41 - Validando id_trabajador: 4
+2025-11-19 16:45:41 - Resultado de la validación de trabajador_existe para ID 4: Array
+(
+    [id] => 4
+)
+
+2025-11-19 16:45:41 - id_trabajador (4) existe en la tabla trabajadores.
+2025-11-19 16:45:41 - Datos para boleta_de_pago antes de insertar/actualizar: Array
+(
+    [id_trabajador] => 4
+    [mes] => 10
+    [ano] => 2025
+    [dias_laborados] => 29
+    [dias_no_laborados] => 2
+    [total_ingresos] => 1880
+    [total_descuentos] => 140
+    [total_aportes] => 0
+    [total_neto] => 1740
+    [observaciones] => Boleta generada automáticamente para ARNOLD MORANTE - 10/2025
+)
+
+2025-11-19 16:45:41 - Intentando actualizar boleta con ID: 68
+2025-11-19 16:45:41 - Boleta principal actualizada con ID: 68
+2025-11-19 16:45:41 - Detalles antiguos borrados para boleta ID: 68
+2025-11-19 16:45:41 - Ingresos dinámicos procesados.
+2025-11-19 16:45:41 - Descuentos dinámicos procesados.
+2025-11-19 16:45:41 - No se encontró un user_id para el trabajador ID: 4

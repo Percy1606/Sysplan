@@ -1,0 +1,246 @@
+2025-11-04 02:55:02 - ID de boleta recibido: 33
+2025-11-04 02:55:02 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 02:55:18 - ID de boleta recibido: 33
+2025-11-04 02:55:18 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 02:56:09 - ID de boleta recibido: 33
+2025-11-04 02:56:09 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 02:56:41 - ID de boleta recibido: 33
+2025-11-04 02:56:41 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 02:57:13 - ID de boleta recibido: 33
+2025-11-04 02:57:13 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = 33
+2025-11-04 02:57:13 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 02:59:24 - ID de boleta recibido: 33
+2025-11-04 02:59:24 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = 33
+2025-11-04 02:59:24 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 02:59:27 - ID de boleta recibido: 33
+2025-11-04 02:59:27 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = 33
+2025-11-04 02:59:27 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 02:59:59 - ID de boleta recibido: 33
+2025-11-04 02:59:59 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = 33
+2025-11-04 02:59:59 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:00:32 - ID de boleta recibido: 33
+2025-11-04 03:00:32 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = 33
+2025-11-04 03:00:32 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:01:50 - ID de boleta recibido: 33
+2025-11-04 03:01:50 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:01:50 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:02:29 - ID de boleta recibido: 33
+2025-11-04 03:02:29 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:02:29 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:03:55 - ID de boleta recibido: 33
+2025-11-04 03:03:55 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:03:55 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:06:30 - ID de boleta recibido: 33
+2025-11-04 03:06:30 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:06:30 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:06:34 - ID de boleta recibido: 33
+2025-11-04 03:06:34 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:06:34 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:07:30 - ID de boleta recibido: 33
+2025-11-04 03:07:30 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, a.nombre as area_nombre,
+                 ce.nombre_empresa, ce.ruc_empresa, ce.direccion_empresa, ce.telefono_empresa, ce.email_empresa
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          LEFT JOIN areas a ON t.id_area = a.id
+          LEFT JOIN configuracion_empresa ce ON ce.id = 1 -- Asumiendo que siempre hay un registro con ID 1 para la configuración de la empresa
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:07:30 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:10:54 - ID de boleta recibido: 33
+2025-11-04 03:10:54 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:10:54 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:10:57 - ID de boleta recibido: 33
+2025-11-04 03:10:57 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:10:57 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:11:00 - ID de boleta recibido: 33
+2025-11-04 03:11:00 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta con ID: 33
+2025-11-04 03:11:00 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:12:51 - ID de boleta recibido: 33
+2025-11-04 03:12:51 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-04 03:12:51 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 33
+)
+
+2025-11-04 03:12:51 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:20:25 - ID de boleta recibido: 33
+2025-11-04 03:20:25 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-04 03:20:25 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 33
+)
+
+2025-11-04 03:20:25 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:21:25 - ID de boleta recibido: 33
+2025-11-04 03:21:25 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-04 03:21:25 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 33
+)
+
+2025-11-04 03:21:25 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-04 03:21:55 - ID de boleta recibido: 33
+2025-11-04 03:21:55 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-04 03:21:55 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 33
+)
+
+2025-11-04 03:21:55 - Error: No se encontró la boleta con el ID proporcionado. ID: 33
+2025-11-16 15:30:38 - ID de boleta recibido: 52
+2025-11-16 15:30:38 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-16 15:30:38 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 52
+)
+
+2025-11-16 15:30:38 - Error: No se encontró la boleta con el ID proporcionado. ID: 52
+2025-11-16 15:32:11 - ID de boleta recibido: 52
+2025-11-16 15:32:11 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-16 15:32:11 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 52
+)
+
+2025-11-16 15:32:11 - Error: No se encontró la boleta con el ID proporcionado. ID: 52
+2025-11-16 15:38:32 - ID de boleta recibido: 52
+2025-11-16 15:38:32 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-16 15:38:32 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 52
+)
+
+2025-11-16 15:38:32 - Error: No se encontró la boleta con el ID proporcionado. ID: 52
+2025-11-16 15:43:39 - ID de boleta recibido: 52
+2025-11-16 15:43:39 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-16 15:43:39 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 52
+)
+
+2025-11-16 15:43:39 - Error: No se encontró la boleta con el ID proporcionado. ID: 52
+2025-11-16 15:44:46 - ID de boleta recibido: 52
+2025-11-16 15:44:46 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-16 15:44:46 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 52
+)
+
+2025-11-16 15:44:46 - Error: No se encontró la boleta con el ID proporcionado. ID: 52
+2025-11-16 15:46:39 - ID de boleta recibido: 52
+2025-11-16 15:46:39 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.ocupacion, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-16 15:46:39 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 52
+)
+
+2025-11-16 15:46:39 - Error: No se encontró la boleta con el ID proporcionado. ID: 52
+2025-11-16 15:47:35 - ID de boleta recibido: 52
+2025-11-16 15:47:35 - SQL de boleta principal: SELECT bp.*, t.nombresApellidos, t.documento, t.ocupacion, t.id_area
+          FROM boleta_de_pago bp
+          LEFT JOIN trabajadores t ON bp.id_trabajador = t.id
+          WHERE bp.id = :id_boleta
+2025-11-16 15:47:35 - Parámetros para boleta principal: Array
+(
+    [:id_boleta] => 52
+)
+
+2025-11-16 15:47:35 - Error: No se encontró la boleta con el ID proporcionado. ID: 52
